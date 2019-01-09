@@ -4,6 +4,7 @@ import kotlinx.coroutines.experimental.delay
 import kotlinx.coroutines.experimental.launch
 
 fun main(args: Array<String>) {
+
     println("Start main app")
     println(Thread.currentThread().name)
 
@@ -17,6 +18,7 @@ fun main(args: Array<String>) {
     }
 
     Thread.sleep(20000) // wait for 2 seconds
+
     println("Stop main app")
 }
 
